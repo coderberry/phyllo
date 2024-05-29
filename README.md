@@ -95,7 +95,7 @@ end
 - **[Identity API](https://github.com/coderberry/phyllo/blob/main/IDENTITY_API.md):** Access creator’s profile & reputation information.
 - **[Engagement API](https://github.com/coderberry/phyllo/blob/main/ENGAGEMENT_API.md):** Engagement APIs help access the creator’s content and its related engagement metrics.
 - **[Activity API](https://github.com/coderberry/phyllo/blob/main/ACTIVITY_API.md):** Activity APIs help access information related to the user activity on the platform.
-- **[Webhook API](https://github.com/coderberry/phyllo/blob/main/WEBHOOK_API.md):** Phyllo uses webhooks to send programmatic updates about your creator’s data when the data is **added**, **updated**, or **deleted**. For example, Phyllo sends an event account.added when the creator links a new work platform account.
+- **[Webhook API](https://github.com/coderberry/phyllo/blob/main/WEBHOOKS_API.md):** Phyllo uses webhooks to send programmatic updates about your creator’s data when the data is **added**, **updated**, or **deleted**. For example, Phyllo sends an event account.added when the creator links a new work platform account.
 
 ## Documentation for API Endpoints
 
