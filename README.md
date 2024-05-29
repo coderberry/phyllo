@@ -1,5 +1,7 @@
 # phyllo
 
+[![RubyDocs](https://img.shields.io/badge/RubyDocs-Phyllo-red?logo=rubygems)](https://www.rubydoc.info/github/coderberry/phyllo)
+
 Phyllo - the Ruby gem for the API References
 
 The **Phyllo API** is built on RESTful principles and returns JSON encoded responses and accepts JSON payloads. It is only available through HTTPS to ensure the security of the data in transfer. These APIs must be called only from your server and never from your app / frontend as this is a security concern.
@@ -86,6 +88,14 @@ rescue Phyllo::ApiError => e
 end
 
 ```
+
+## API Usage Examples
+
+- **[Connect API](https://github.com/coderberry/phyllo/blob/main/CONNECT_API.md):** Creator’s consent is required to access their data. Connect APIs manage users and consent before fetching data about them.
+- **[Identity API](https://github.com/coderberry/phyllo/blob/main/IDENTITY_API.md):** Access creator’s profile & reputation information.
+- **[Engagement API](https://github.com/coderberry/phyllo/blob/main/ENGAGEMENT_API.md):** Engagement APIs help access the creator’s content and its related engagement metrics.
+- **[Activity API](https://github.com/coderberry/phyllo/blob/main/ACTIVITY_API.md):** Activity APIs help access information related to the user activity on the platform.
+- **[Webhook API](https://github.com/coderberry/phyllo/blob/main/WEBHOOK_API.md):** Phyllo uses webhooks to send programmatic updates about your creator’s data when the data is **added**, **updated**, or **deleted**. For example, Phyllo sends an event account.added when the creator links a new work platform account.
 
 ## Documentation for API Endpoints
 
