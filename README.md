@@ -48,7 +48,7 @@ Finally add this to the Gemfile:
 
 If the Ruby gem is hosted at a git repository: https://github.com/GIT_USER_ID/GIT_REPO_ID, then add the following in the Gemfile:
 
-    gem 'phyllo', :git => 'https://github.com/GIT_USER_ID/GIT_REPO_ID.git'
+    gem 'phyllo', :git => 'https://github.com/coderberry/phyllo.git'
 
 ### Include the Ruby code directly
 
@@ -69,8 +69,8 @@ require 'phyllo'
 # Setup authorization
 Phyllo.configure do |config|
   # Configure HTTP basic authorization: Basic Authentication
-  config.username = 'YOUR_USERNAME'
-  config.password = 'YOUR_PASSWORD'
+  config.username = 'CLIENT_ID'
+  config.password = 'CLIENT_SECRET'
 end
 
 api_instance = Phyllo::ActivityApi.new
