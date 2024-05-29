@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    phyllo (1.0.0)
+    sponsorless-phyllo (1.0.0)
       typhoeus (~> 1.0, >= 1.0.1)
 
 GEM
@@ -86,11 +86,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  phyllo!
   pry-byebug
   rake
   rspec (~> 3.6, >= 3.6.0)
   rubocop
+  sponsorless-phyllo!
   standard (>= 1.35.1)
 
 BUNDLED WITH
