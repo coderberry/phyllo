@@ -66,7 +66,8 @@ Please follow the [installation](#installation) procedure and then run the follo
 # Load the gem
 require 'phyllo'
 
-# Setup authorization
+# Setup authorization 
+# NOTE: credentials are different between environments (e.g. sandbox, staging, production)
 Phyllo.configure do |config|
   # Configure HTTP basic authorization: Basic Authentication
   config.username = 'CLIENT_ID'

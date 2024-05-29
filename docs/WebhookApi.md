@@ -28,8 +28,8 @@ require 'phyllo'
 # setup authorization
 Phyllo.configure do |config|
   # Configure HTTP basic authorization: Basic Authentication
-  config.username = 'YOUR USERNAME'
-  config.password = 'YOUR PASSWORD'
+  config.username = 'CLIENT_ID'
+  config.password = 'CLIENT_SECRET'
 end
 
 api_instance = Phyllo::WebhookApi.new
@@ -97,8 +97,8 @@ require 'phyllo'
 # setup authorization
 Phyllo.configure do |config|
   # Configure HTTP basic authorization: Basic Authentication
-  config.username = 'YOUR USERNAME'
-  config.password = 'YOUR PASSWORD'
+  config.username = 'CLIENT_ID'
+  config.password = 'CLIENT_SECRET'
 end
 
 api_instance = Phyllo::WebhookApi.new
@@ -171,8 +171,8 @@ require 'phyllo'
 # setup authorization
 Phyllo.configure do |config|
   # Configure HTTP basic authorization: Basic Authentication
-  config.username = 'YOUR USERNAME'
-  config.password = 'YOUR PASSWORD'
+  config.username = 'CLIENT_ID'
+  config.password = 'CLIENT_SECRET'
 end
 
 api_instance = Phyllo::WebhookApi.new
@@ -241,8 +241,8 @@ require 'phyllo'
 # setup authorization
 Phyllo.configure do |config|
   # Configure HTTP basic authorization: Basic Authentication
-  config.username = 'YOUR USERNAME'
-  config.password = 'YOUR PASSWORD'
+  config.username = 'CLIENT_ID'
+  config.password = 'CLIENT_SECRET'
 end
 
 api_instance = Phyllo::WebhookApi.new
@@ -313,8 +313,8 @@ require 'phyllo'
 # setup authorization
 Phyllo.configure do |config|
   # Configure HTTP basic authorization: Basic Authentication
-  config.username = 'YOUR USERNAME'
-  config.password = 'YOUR PASSWORD'
+  config.username = 'CLIENT_ID'
+  config.password = 'CLIENT_SECRET'
 end
 
 api_instance = Phyllo::WebhookApi.new
@@ -385,8 +385,8 @@ require 'phyllo'
 # setup authorization
 Phyllo.configure do |config|
   # Configure HTTP basic authorization: Basic Authentication
-  config.username = 'YOUR USERNAME'
-  config.password = 'YOUR PASSWORD'
+  config.username = 'CLIENT_ID'
+  config.password = 'CLIENT_SECRET'
 end
 
 api_instance = Phyllo::WebhookApi.new
