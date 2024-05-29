@@ -208,7 +208,7 @@ module Phyllo
       return false if @created_at.nil?
       return false if @updated_at.nil?
       return false if @category.nil?
-      category_validator = EnumAttributeValidator.new("String", ["MEDIA", "EDUCATION", "SOCIAL", "ENTERTAINMENT", "LIFESTYLE", "BUSINESS"])
+      category_validator = EnumAttributeValidator.new("String", ["MEDIA", "EDUCATION", "SOCIAL", "ENTERTAINMENT", "LIFESTYLE", "BUSINESS", "COMMERCE"])
       return false unless category_validator.valid?(@category)
       return false if @status.nil?
       status_validator = EnumAttributeValidator.new("String", ["ACTIVE", "INACTIVE"])
@@ -221,7 +221,7 @@ module Phyllo
     # Custom attribute writer method checking allowed values (enum).
     # @param [Object] category Object to be assigned
     def category=(category)
-      validator = EnumAttributeValidator.new("String", ["MEDIA", "EDUCATION", "SOCIAL", "ENTERTAINMENT", "LIFESTYLE", "BUSINESS"])
+      validator = EnumAttributeValidator.new("String", ["MEDIA", "EDUCATION", "SOCIAL", "ENTERTAINMENT", "LIFESTYLE", "BUSINESS", "COMMERCE"])
       unless validator.valid?(category)
         fail ArgumentError, "invalid value for \"category\", must be one of #{validator.allowable_values}."
       end
